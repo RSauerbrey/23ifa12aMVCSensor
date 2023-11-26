@@ -1,5 +1,3 @@
-//test
-
 #include "widget.h"
 #include "controller.h"
 #include "view.h"
