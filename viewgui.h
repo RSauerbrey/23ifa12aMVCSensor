@@ -10,6 +10,8 @@ private:
     Widget widget;
 public:
     ViewGUI();
+    void setOutput(QString out);
+    void update();
 };
 
 #endif // VIEWGUI_H

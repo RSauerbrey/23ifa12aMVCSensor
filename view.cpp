@@ -1,5 +1,6 @@
 #include "view.h"
 #include "controller.h"
+#include <QDebug>
 View::View()
 {
 
@@ -17,5 +18,6 @@ void View::setController(Controller* controller)
 
 void View::action()
 {
+    qDebug() << "View (Basis): Informiere Controller über User-Action";
     controller->action();
 }

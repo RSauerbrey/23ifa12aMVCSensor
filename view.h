@@ -8,11 +8,12 @@ class View:public QObject
     Q_OBJECT
 protected:
     Controller *controller;
-
+    QString out;
 public:
     View();
-    void update();
+    virtual void update();
     void setController(Controller* controller);
+    virtual void setOutput(QString out) = 0;
 public slots:
     void action();
 };

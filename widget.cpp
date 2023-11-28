@@ -22,3 +22,8 @@ QPushButton* Widget::getBtnAction()
 {
     return ui->btnAction;
 }
+
+QTextEdit* Widget::getTextOutput()
+{
+    return ui->txtOutput;
+}
